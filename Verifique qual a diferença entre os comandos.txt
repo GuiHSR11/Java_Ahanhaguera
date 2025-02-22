@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello ");
+        System.out.print("World!");
+        System.out.println(" Bem-vindo ao Java!");
+        System.out.println("Nova linha aqui.");
+    }
+}
+
+
+System.out.println("Hello World!");
+Exibe a mensagem "Hello World!" e quebra a linha ao final, ou seja, o próximo conteúdo será exibido na linha de baixo.
+
+System.out.print("Hello World!");
+Exibe a mensagem "Hello World!" sem quebrar a linha, então o próximo conteúdo aparecerá logo ao lado, na mesma linha.
