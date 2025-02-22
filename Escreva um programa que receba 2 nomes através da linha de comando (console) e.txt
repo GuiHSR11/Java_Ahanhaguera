@@ -1,0 +1,21 @@
+public class PrintNames {
+    public static void main(String[] args) {
+        // Verifica se foram passados dois argumentos
+        if (args.length < 2) {
+            System.out.println("Por favor, forneça dois nomes.");
+            return;
+        }
+
+        // Captura os nomes passados como argumentos
+        String nome1 = args[0];
+        String nome2 = args[1];
+
+        // Imprime os nomes na tela
+        System.out.println("Primeiro nome: " + nome1);
+        System.out.println("Segundo nome: " + nome2);
+    }
+} 
+
+// Para rodar esse programa pelo terminal, você usaria algo assim:
+// javac PrintNames.java
+// java PrintNames Maria João
