@@ -1,0 +1,14 @@
+public class MaiorNumero {
+    public static void main(String[] args) {
+        // Faz o parse dos argumentos para números inteiros
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[1]);
+        int num3 = Integer.parseInt(args[2]);
+
+        // Encontra o maior número usando Math.max
+        int maior = Math.max(num1, Math.max(num2, num3));
+
+        // Imprime o maior número
+        System.out.println(maior);
+    }
+}
