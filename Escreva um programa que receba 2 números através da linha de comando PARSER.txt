@@ -1,0 +1,12 @@
+public class PrintNumbers {
+    public static void main(String[] args) {
+        if (args.length == 2) {
+            int num1 = Integer.parseInt(args[0]);
+            int num2 = Integer.parseInt(args[1]);
+            System.out.println("Número 1: " + num1);
+            System.out.println("Número 2: " + num2);
+        } else {
+            System.out.println("Por favor, informe dois números.");
+        }
+    }
+}
